@@ -1,10 +1,9 @@
-<link rel="stylesheet" href="{% static 'style.css' %}"> <title>Home</title>
-{% load static %}
+{% extends 'layout.html' %}
 
-{% extends "layout.html" %}
-
-{% block title %}Home{% endblock %}
+{% block title %}
+    Home
+{% endblock %}
 
 {% block content %}
-    <h1>Hello-World</h1>
+    <h1>Home</h1>
 {% endblock %}
